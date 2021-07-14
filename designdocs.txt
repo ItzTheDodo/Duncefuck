@@ -1,0 +1,19 @@
+== Basic premise ==
+works using set variables/registers addressed using a number of dots (.) with a prefix of an percent sign (%) (e.g. var 4 is %....)
+to assign use the tilda symbol (~)
+; to end statement (carriage returns don't have any effect)
+to refer to a integer formulate it using question marks (?) to assign place value and dots (.) to assign value, between each place value put a addition sign (+) (e.g. ??......+?... = 63)
+to refer to a char simply put an ascii integer inside two pikes (|) (e.g. |??.........+?.......| = a)
+to refer to a string simply string chars together using addition signs (+) (e.g. |??.........+?.......|+|??.........+?........| = ab)
+to refer to a float put two integers together, one as the decimal, goes first, and one as the number, goes last. split by two pikes (||) (e.g. ?....||??......+?... = 63.4)
+to create a function assign a name using the previous stated formatting with the prefix and suffix being a colon (:) with the rest of the code in the function indented (e.g. :|??.........+?.......|+|??.........+?........|:)
+to call a function use a exclamation mark and the name (e.g. !|??.........+?.......|+|??.........+?........| calls the function ab)
+comments are used by #
+to get an input place an item between two speech marks ("<item>")
+to print out place a variable or item in between two brackets ([<item>])
+to compare objects use the basic comparision items between brackets (e.g. (??......+?...==??......+?...) = 63==63)
+to declare an if put the comparision between two curly brackets, remember to indent (e.g. {<comparision>})
+to declare a while loop put the comparision between two hyphens, remember to indent (e.g. -<comparision>-)
+
+== Maths ==
+all normal maths functions work however the add function is ++ and subtract is --
